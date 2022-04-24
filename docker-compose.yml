@@ -1,13 +1,13 @@
 version: "3"
 services:
   order-beverage-service:
-    image: yamini25/vendingmachine:latest
+    image: yamini25/vendingupdate:latest
     hostname: order-beverage-service
     restart: always
     entrypoint: OrderBeverageService
 
   weather-service:
-    image: yamini25/vendingmanchine:latest
+    image: yamini25/vendingupdate:latest
     hostname: weather-service
     restart: always
     entrypoint: WeatherService
